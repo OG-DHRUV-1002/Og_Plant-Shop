@@ -2,7 +2,7 @@
 
 .landing-page {
   /* Adjust this URL to an actual image in your public folder */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('C:\Users\OG_DJ\plant-shop\public\images\landing-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('\images\landing-background.jpg');
   height: calc(100vh - 80px); /* Full viewport height minus header height */
   background-size: cover;
   background-position: center;
