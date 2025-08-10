@@ -1,0 +1,45 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header nav a {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: var(--primary-color);
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--secondary-color);
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+}

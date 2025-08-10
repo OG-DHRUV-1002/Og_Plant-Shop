@@ -1,0 +1,53 @@
+/* src/pages/ProductListPage.css */
+
+.product-list-page h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-list-page h3 {
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  /* Creates a responsive grid that fits as many columns as possible */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow: hidden; /* Ensures image corners are rounded */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 1.5rem;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover; /* Ensures images are not distorted */
+}
+
+.product-card h4 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
